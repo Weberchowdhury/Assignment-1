@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+nav img {
+}
+
+.nav-frist-div {
+  display: flex;
+}
+
+.nav-second-div {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+button {
+  color: aliceblue;
+  background-color: #2563eb;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+}
