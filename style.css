@@ -10,9 +10,6 @@ nav {
   margin: 20px 50px;
 }
 
-nav img {
-}
-
 .nav-frist-div {
   display: flex;
 }
@@ -23,7 +20,7 @@ nav img {
   gap: 10px;
 }
 
-button {
+.register-button {
   color: aliceblue;
   background-color: #2563eb;
   padding: 8px 12px;
@@ -92,4 +89,60 @@ header button {
 section p,
 h4 {
   text-align: left;
+}
+
+/* start secure your spot */
+
+.secure-content {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.secure-conteiner {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px; */
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.secure-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 35px 30px;
+  margin: 60px 0;
+}
+
+main {
+  margin: 0 70px;
+}
+
+button {
+  padding: 10px 70px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* .ul-margin {
+  margin-top: 20px;
+} */
+
+ul {
+  padding: 13px 0;
+}
+
+.p-margin {
+  margin-bottom: 25px;
+}
+
+.pro-card {
+  background-color: #0d1b2a;
+  color: #e5e7eb;
+}
+
+.pro-button {
+  background-color: #2563eb;
+  color: #e5e7eb;
 }
