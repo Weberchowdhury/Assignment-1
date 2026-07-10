@@ -12,12 +12,21 @@ nav {
 
 .nav-frist-div {
   display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav-second-div {
   display: flex;
   list-style: none;
+  align-items: center;
   gap: 10px;
+}
+
+.logo-mini {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
 }
 
 .register-button {
@@ -58,6 +67,9 @@ header button {
 
 /* main section start */
 
+main {
+  padding: 50px 0;
+}
 .section-content {
   text-align: center;
   padding: 15px 0;
@@ -70,14 +82,32 @@ header button {
   padding: 20px 70px;
 }
 
+.color-job {
+  color: #575757;
+  font-size: 15px;
+}
+
 .color-blue {
   color: #2563eb;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* start secure your spot */
+
+.sec-padding {
+  padding: 50px 0;
+  margin-bottom: 0 50px;
 }
 
 .card {
   text-align: center;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
+}
+
+.card-content {
+  padding: 20px 15px;
 }
 
 .card img {
@@ -142,7 +172,66 @@ ul {
   color: #e5e7eb;
 }
 
+.pro-color {
+  color: #2563eb;
+}
 .pro-button {
   background-color: #2563eb;
   color: #e5e7eb;
+  border: none;
+}
+
+/* footer */
+
+.footer {
+  background: #081625;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-left img {
+  width: 170px;
+}
+
+.footer-left p {
+  color: #8f9ba8;
+  font-size: 14px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-right a {
+  color: #c7d0d9;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.font-size {
+  font-size: 40px;
+}
+
+ul {
+  font-size: 14px;
+}
+
+li::marker {
+  color: #2563eb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
