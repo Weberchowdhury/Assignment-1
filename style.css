@@ -45,7 +45,7 @@ nav {
 .hero-section {
   background-image: url("./assets/banner.jpg");
   background-size: cover;
-  height: 120vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,6 +53,9 @@ nav {
   gap: 20px;
 }
 
+#btn-rg {
+  margin-top: 200px;
+}
 header h1 {
   color: #ffffff;
   margin-bottom: 10px;
@@ -266,6 +269,7 @@ ul {
   width: 220px;
   padding: 30px 20px;
   background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 22px;
@@ -416,15 +420,15 @@ ul {
   font-size: 14px;
 }
 
-.footer-right {
+.social-icons {
   display: flex;
   gap: 40px;
 }
 
-.footer-right a {
-  color: #c7d0d9;
-  text-decoration: none;
-  font-size: 15px;
+.social-icons a {
+  color: rgb(177, 166, 224);
+  font-size: 28px;
+  transition: 0.3s;
 }
 
 .font-size {
@@ -443,4 +447,8 @@ li::marker {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.p-copyright {
+  padding: 5px 60px;
+  background-color: #435d79;
 }
